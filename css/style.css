@@ -47,7 +47,7 @@ p {
 	margin-bottom: 40px;
 }
 
-.subtitulo-interno::after {
+.subtitulo::after {
 	content: "";
 	display: block;
 	width: 60px;
