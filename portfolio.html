@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
   </head>
 
   <body>
@@ -33,16 +34,24 @@
     <!-- Introducao  -->
     <section class="introducao-interna interna_portfolio">
       <div class="container">
-        <h1>Portfólio</h1>
-        <p>conheça os projetos que amamos mostrar</p>
+        <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+        <p data-anime="800" class="fadeInDown">conheça os projetos que amamos mostrar</p>
       </div>
     </section>
 
     <!-- Blockquote -->
-    <section>
+    <section class="container fadeInDown" data-slide="quote" data-anime="1200">
       <blockquote class="quote_clientes">
-        <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
+        <p>"Pedalar sempre foi minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade.Recomendo à todos que amo."</p>
         <cite>Barbara Moss</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>"Nada melhor do que dar um rolê com a minha bickcraft na orla.Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição."</p>
+        <cite>Jhony Rato</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>"Aqueles que ainda não possuem uma Bickcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental"</p>
+        <cite>Bernardo</cite>
       </blockquote>
     </section>
 
@@ -50,7 +59,7 @@
     <!-- Portfólio -->
 
     <section class="portfolio">
-      <div class="container">
+      <div class="container" data-slide="portfolio">
         <ul class="portfolio_lista">
           <li class="grid-8">
             <img src="./img/portfolio/retro.jpg" alt="bicicleta retro" />
@@ -62,9 +71,20 @@
             <img src="./img/portfolio/esporte.jpg" alt="bicicleta esporte" />
           </li>
         </ul>
+        <ul class="portfolio_lista">
+          <li class="grid-8">
+            <img src="./img/portfolio/passeio.jpg" alt="bicicleta passeio" />
+          </li>
+          <li class="grid-8">
+            <img src="./img/portfolio/retro.jpg" alt="bicicleta retro" />
+          </li>
+          <li class="grid-16">
+            <img src="./img/portfolio/esporte.jpg" alt="bicicleta esporte" />
+          </li>
+        </ul>
       </div>
     </section>
-
+    
     <!-- Quebra -->
 
     <section class="quebra">
@@ -129,5 +149,10 @@
         </div>
       </div>
     </footer>
+    
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+  
   </body>
 </html>
