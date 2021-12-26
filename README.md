@@ -1,6 +1,6 @@
 <div align="center">
 
-# Projeto Bikcraft 
+# Bikcraft 
 
 </div>
 
