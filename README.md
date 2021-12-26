@@ -18,7 +18,7 @@
 <hr />
 
 ## Deploy:
-Clique <a src="https://joaogalhardi.github.io/Bikcraft/"> aqui </a> para testar a aplicação.
+Clique [aqui](https://joaogalhardi.github.io/Bikcraft/) para testar a aplicação.
 
 ## Tecnologias:
 
