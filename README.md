@@ -27,6 +27,6 @@ Clique [aqui](https://joaogalhardi.github.io/Bikcraft) para testar a aplicação
 - 💹 **JAVASCRIPT**
 
 
-## Licensa:
+## Licença:
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
